@@ -1,0 +1,15 @@
+/*Universal Styles*/
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #BDECB6;
+  Font-Family: 'Catamaran', Sans-Serif;
+}
+
+/*Game*/
+.main {
+  font-size: 4rem;
+  color: #353635;
+}
