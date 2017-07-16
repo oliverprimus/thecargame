@@ -4,12 +4,116 @@ html {
 }
 
 body {
+  margin-top: 1rem;
   background-color: #BDECB6;
   Font-Family: 'Catamaran', Sans-Serif;
+  color: #353635;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 0.75rem;
 }
 
 /*Game*/
-.main {
-  font-size: 4rem;
-  color: #353635;
+.card {
+  height: 8.5rem;
+  border: 4px solid #BDECB6;
+  border-radius: 8px;
+  background-color: rgb(32, 64, 86);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:nth-child(13) {
+background-color: rgb(227, 186, 94);
+}
+
+.card:nth-child(14) {
+background-color: rgb(246, 75, 66);
+}
+
+.card:nth-child(15) {
+  background-color: #BDECB6;
+  border: #BDECB6;
+}
+
+.card:nth-child(16) {
+background-color: rgb(183, 153, 238);
+}
+
+.card img {
+  width: 3rem;
+}
+
+
+#sign {
+  font-size: 1.75rem;
+}
+
+
+/*Footer*/
+footer {
+text-align: right;
+margin-top: 0.75rem;
+}
+
+
+/*Media Queries*/
+@media only screen and (max-width:991px) {
+  body {
+    margin-top: 0;
+  }
+
+  .card {
+    height: 6rem;
+  }
+}
+
+  @media only screen and (max-width:530px) {
+    body {
+      margin-top: 0;
+    }
+
+    .card {
+      height: 5rem;
+    }
+
+    .card h2 {
+      font-size: 1rem;
+    }
+
+    h3 {
+      display: none;
+    }
+
+    #sign {
+      font-size: 1rem;
+    }
+
+    footer {
+      text-align: left;
+      margin-top: 1rem;
+    }
+
+#game {
+  padding: 0 1.25rem;
+}
 }
