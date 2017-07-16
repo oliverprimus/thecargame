@@ -30,6 +30,7 @@ h5 {
   font-size: 0.75rem;
 }
 
+
 /*Game*/
 .card {
   height: 8.5rem;
@@ -56,7 +57,7 @@ background-color: rgb(246, 75, 66);
 }
 
 .card:nth-child(16) {
-background-color: rgb(183, 153, 238);
+background-color: rgb(93, 80, 191);
 }
 
 .card img {
@@ -67,6 +68,14 @@ background-color: rgb(183, 153, 238);
 #sign {
   font-size: 1.75rem;
 }
+
+
+/*Total*/
+span {
+  font-size: 4rem;
+}
+
+#total img 
 
 
 /*Footer*/
@@ -100,8 +109,18 @@ margin-top: 0.75rem;
       font-size: 1rem;
     }
 
+    h1 {
+  font-size: 3.75rem;
+  text-align: center;
+  margin-top: 0.5rem;
+    }
+
     h3 {
       display: none;
+    }
+
+    p {
+      margin-bottom: 1.5rem;
     }
 
     #sign {
@@ -110,10 +129,11 @@ margin-top: 0.75rem;
 
     footer {
       text-align: left;
-      margin-top: 1rem;
+      margin-top: 1.5rem;
     }
 
 #game {
   padding: 0 1.25rem;
 }
+
 }
