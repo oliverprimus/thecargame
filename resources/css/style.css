@@ -30,7 +30,10 @@ h5 {
   font-size: 0.75rem;
 }
 
-
+#idiot {
+  font-size: 2rem;
+  justify-content: center;
+}
 /*Game*/
 .card {
   height: 8.5rem;
@@ -44,11 +47,11 @@ h5 {
 }
 
 .card:nth-child(13) {
-background-color: rgb(227, 186, 94);
+background-color: rgb(246, 75, 66);
 }
 
 .card:nth-child(14) {
-background-color: rgb(246, 75, 66);
+background-color: rgb(227, 186, 94);
 }
 
 .card:nth-child(15) {
@@ -64,6 +67,11 @@ background-color: rgb(93, 80, 191);
   width: 3rem;
 }
 
+.card:hover {
+background-color: #3e8e41;
+transform: translateY(4px);
+}
+
 
 #sign {
   font-size: 1.75rem;
@@ -75,7 +83,15 @@ span {
   font-size: 4rem;
 }
 
-#total img
+#total {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+#total img {
+  width: 2.5rem;
+}
 
 
 /*Footer*/
@@ -95,6 +111,7 @@ margin-top: 0.75rem;
     height: 6rem;
   }
 }
+
 
   @media only screen and (max-width:530px) {
     body {
