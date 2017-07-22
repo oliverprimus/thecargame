@@ -83,19 +83,20 @@
 
       <!-- Row 4 -->
       <div id="baby" onclick="bonus=true" class="col-md-3 col-xs-3 card">
-      <img src="./resources/images/baby.png">
+      <img id="b" src="./resources/images/baby.png"> <img id="c" src="./resources/images/car.png">
       </div>
 
-      <div id="car" onclick="bonus=true" class="col-md-3 col-xs-3 card">
-      <img src="./resources/images/car.png">
+      <div id="undo" onclick="undoLastAdd()" class="col-md-3 col-xs-3 card">
+      <img src="./resources/images/undo.png">
       </div>
 
-      <div class="col-md-0 col-xs-0 card">
+      <div onclick="myReset()" class="col-md-3 col-xs-3 card">
+        <img src="./resources/images/forest.png">
       </div>
 
-      <div id="total" class="col-md-6 col-xs-6 card total">
+      <div id="total" class="col-md-3 col-xs-3 card total">
       <h2 id="score"></h2>
-      <img src="./resources/images/score.png">
+
       <p id="idiot"></p>
       </div>
   </div>
