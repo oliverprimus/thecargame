@@ -34,6 +34,12 @@ h5 {
   font-size: 4rem;
   margin: auto;
 }
+
+.mobile-description {
+  display: none;
+}
+
+
 /*Game*/
 .card {
   height: 8.5rem;
@@ -118,6 +124,14 @@ margin-top: 0.75rem;
       margin-top: 0;
     }
 
+    .mobile-description {
+      display:block;
+    }
+
+        .desktop-description {
+          display: none;
+        }
+
 #b {
   width: 2rem;
 }
@@ -139,9 +153,7 @@ margin-top: 0.75rem;
   margin-top: 0.5rem;
     }
 
-    h3 {
-      display: none;
-    }
+
 
     p {
       margin-bottom: 1.5rem;
@@ -162,8 +174,19 @@ margin-top: 0.75rem;
     }
 
 #game {
+  margin-top: -1rem;
   padding: 0 1.25rem;
 }
+
+#how {
+display: none;
+}
+
+#description {
+  text-align: center;
+}
+
+
 
 
 }
