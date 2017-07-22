@@ -186,7 +186,10 @@ display: none;
   text-align: center;
 }
 
-
+/*.card:hover {
+background-color: rgb(32, 64, 86);
+transform: translateY(0px);
+}*/
 
 
 }
